@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Samuel Ochie - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Samuel Ochie
+          <div class="contact_info">
+            <img src="images/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          fritzgerrad.so@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="images/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +234-909-8708-094
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="images/Passport.png" class="profile_image" height="20cm" width="20cm"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Samuel Ochie! <img src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" width="60px"/>
+          </h1>
+          <p>
+            I am an adaptable and collaborative professional with a passion for technology. 
+            My ability to communicate complex concepts in simple terms and collaborate with cross-functional teams make me an asset to any organization. 
+            I have a strong work ethic, critical thinking skills, and am passionate about leveraging technology to solve business problems. 
+            I am excited to bring my enthusiasm, team-oriented approach, and people skills to any project or organization.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="images/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="images/CSS3.png"/>
+          <h6>CSS</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="images/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="images/java.png"/>
+          <h6>Java</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="images/mysql.png"/>
+          <h6>SQL</h6>
+          <p>3 years experience</p>
+        </div>  
+        
+        <div class="skill">
+          <img src="images/python.png"/>
+          <h6>Python</h6>
+          <p>4 years experience</p>
+        </div>  
+
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>E-Commerce Website</h3>
+            <ul>
+              <li>Developed an E-commerce website using node.js for th backend and HTML, CSS and Javascript for the front end.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Movie Reccomender</h3>
+            <ul>
+              <li>Developed a movie recomendation website using Java. Users are asked to rate a bunch of movies and the website generates movies that they might like based ob their reccomendations.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Fashion Website</h3>
+            <ul>
+              <li>Building a fashion website where customers can come to the catalog, pick a dress that they want and then a tailor is assigned to seew the dress, which is then delivered to the customer. The website is designed using Java Springboot for the backend, HTML, CSS and JavaScript for the front-end and MySQL as the Database.</li>
+            </ul>
+            </div>
+            <hr>
+            <div class="project-card">
+              <h3>House Pricing Model</h3>
+            <ul>
+              <li>Analyzed different parameters that could contribute to the house prices in an area. Used the data to create a model to predict house prices. Used python libraries like pandas, beautiful soup, numpy, matplotlib, requests and sql. </li>
+            </ul>
+            </div>
+            
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Samuel possesses exceptional proficiency in both front-end and back-end development, with a keen eye for detail and a knack for solving complex problems. 
+          His dedication and strong communication skills make him a valuable asset to any development team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Samuel demonstrates a deep understanding of data analysis techniques, with a remarkable ability to extract meaningful insights and provide data-driven recommendations.
+           His analytical mindset, coupled with his strong programming skills, enables him to deliver accurate and actionable data-driven solutions.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Samuel is an outstanding professional who excels in both full stack development and data analysis. His passion for continuous learning, adaptability, and strong work ethic make him an asset in any technology-driven organization. 
+          His commitment to delivering high-quality results is commendable.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="images/checkmark--outline.svg"/>
+      <h3>Thanks for leaving a recomendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
