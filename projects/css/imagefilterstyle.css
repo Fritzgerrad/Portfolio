@@ -22,6 +22,10 @@ body
     margin: 10px;;
 
   }
+  p
+  {
+    color: red;
+  }
 
   canvas
   {
@@ -52,7 +56,7 @@ body
   #doc
   {
      background-color: white;;
-     height: 5cm;;
+     height: auto;
      margin-bottom: 40px;
   }
   #doc p

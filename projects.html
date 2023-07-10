@@ -6,7 +6,36 @@
     <script src="./script.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <style>
+     .web-projects
+     {
+      margin-top:20px;
+      margin-bottom: 60px;
+     }
+     .project-link a
+     {
+      margin-top:25px;
+      margin-right: 50px;
+      margin-left: -30px;
+      padding:10px;
+      border: 3px solid white;
+      border-radius: 100px;
+      text-decoration: none;
+      color: rgb(20, 22, 37);
+      background-color: white;
+      ;
+     }
+
+      .project-link
+     {
+      margin:15px;
+      padding:10px;
+     }
      
+
+     footer
+     {
+      padding-top:30px;
+     }
     </style>
   </head>
   <body>
@@ -15,9 +44,9 @@
       <div id="home">
         <div class="profile_name">
           <a href="#about-me">PROJECTS</a>
-          
         </div>
         <div class="topdiv">
+          <a class="topmenu" href="index.html">Home</a>
           <a class="topmenu" href="#about-me">Web Development</a>
           <a class="topmenu" href="#skills">Data Science</a>
           <a class="topmenu" href="#projects">Others</a>
@@ -25,7 +54,113 @@
       </div>    
     </nav>
     <div style="height: 3.1cm;"></div>
-    <img src="images/under construction.png" height="700px" style="width:auto" >
+    <section class="sub-sections">
+      <div>
+        <p>
+          I taken the time to build a projects in a bid to consolidte my knowledge and practice my skills.
+          My projects have been put to serve the purpose of learning, display of experience and innovation.
+
+        </p>
+      </div>
+
+
+    </section>
+    <section class="sub-sections" id="projects"></section>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Image Filter</h3>
+            <ul>
+              <li>The Image Filter application allows users to upload an image and apply various filters to modify its appearance. 
+                Users can select an image file from their device and see it displayed on the webpage. If any filters are applied, users can click the "Undo" button to revert the image back to its original state.
+                 Basic filters such as "Make Red," "Make Green," and "Make Blue" allow users to change the color characteristics of the image. 
+                Intermediate filters like "Make Blur," "Make Grey," and "Make Rainbow" offer more advanced modifications. Custom filters such as "Behind bars," "Black Pixel," and "White Pixel" provide specialized transformations.
+                 The canvas on the webpage displays the modified image, and users can experiment with different filters to observe the visual transformations applied to their uploaded images.
+                 <div class="project-link">
+                  <a href="/projects/pages/imagefilter.html" target="_blank"> View Application</a>
+                  <a href="/projects/pages/imagefilter.html" target="_blank"> View Source Code</a>
+                 </div>
+                 
+                </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Movie Reccomender</h3>
+            <ul>
+              <li>
+                Developed a movie recomendation website using Java. Users are asked to rate a bunch of movies and the website generates movies that they might like based ob their reccomendations.
+                <div class="project-link">
+                  <a href="https://github.com/Fritzgerrad/MovieReccomender.git" target="_blank"> View Source Code</a>
+                 </div>
+                 
+              </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Filyago Fashion Website</h3>
+            <ul>
+              <li>I am currently building a Fashion website Building a fashion website where users can select a cloth from the catalog and have a tailor sew it and deliver it for them.
+                Tailors will log into the site and provide personal and professional details including samples of materials.
+                 After registration, they will be vetted and approved. 
+                 A customer will come to the site, select a design form the catalog, fill in their measurements and the dress is assigned to a tailor who then sews it.
+                 The dress is then delivered to the customer. 
+                The website is designed using Java Springboot for the backend, HTML, CSS and JavaScript for the front-end and MySQL as the Database.
+                <div class="project-link">
+                  <a href="https://github.com/Fritzgerrad/FILYAGO.git" target="_blank"> View Source Code</a>
+                 </div>
+                 
+              </li>
+            </ul>
+            </div>
+            <hr>
+            <div class="project-card">
+              <h3>S&S E-Commerce Website</h3>
+            <ul>
+              <li>
+                S&S E-Commerce Store is a technologically advanced website powered by Node.js, HTML, CSS, JavaScript, and MySQL. It offers a diverse range of clothing, shoes, and dress accessories for online shopping. 
+                With its seamless navigation and responsive design, users can browse and search for products effortlessly. The website ensures secure transactions through encrypted payment gateways and SSL certificates. 
+                Additionally, it provides administrators with a comprehensive dashboard for efficient management of products, inventory, and customer data.
+                <div class="project-link">
+                  <a href="https://github.com/Fritzgerrad/SS-backend.git" target="_blank"> View Source Code</a>
+                 </div>
+              </li>
+            </ul>
+            </div>
+            <hr>
+            <div class="project-card">
+              <h3>Task Automator Yeilding for Long-Term Operational Responsive System With Infinite Feedback Technology (TAYLOR SWIFT) </h3>
+            <ul>
+              <li>
+                An artificial Intelligence model that can perform an automate simple tasks. 
+                This project was built using Python. THe project is still in development and I plan to use ChatGPT api to expand it.
+                <div class="project-link">
+                  <a href="https://github.com/Fritzgerrad/TAYLOR-SWIFT.git" target="_blank"> View Source Code</a>
+                 </div>
+              </li>
+            </ul>
+            </div>
+            <hr>
+            <div class="project-card">
+              <h3>Developer Salary Analysis</h3>
+            <ul>
+              <li>
+                I analyzed that from a data from StackOverflow a popular website for developers where an online survey was conducted on software developers all over theworld.
+                The data contained responses on various questions on diverse topics. I collecte the data using APIs, explored the data, scraped ome aditional data from the web,
+                and developed a lot of meaningful insights from the data. For example I was able to identify the diversity in salary among loyal employees as opposed to those who witched Jobs often.
+                I also deduced that programmers who start at an earlier age are more likely to earn more than those who start later.
+                <div class="project-link">
+                  <a href="https://github.com/Fritzgerrad/salary-analysis.git" target="_blank"> View Source Code</a>
+                 </div>
+              </li>
+            </ul>
+            </div>
+            
+            
+          </div>
+    </div>
+    </section>
 
     <div class="iconbutton">
         <a href="#home">
@@ -36,7 +171,6 @@
         </a>
         <a href="index.html">
           <img src="images/homeicon.png">
-         
           
         </a>
       </div>
