@@ -1,6 +1,9 @@
 function addRecommendation() {
   // Get the message of the new recommendation
   let recommendation = document.getElementById("new_recommendation");
+  if (recommendation.value == ""){
+    alert("Please enter a Recommendation before Submitting")
+  }
   // If the user has left a recommendation, display a pop-up
   if (recommendation.value != null && recommendation.value.trim() != "") {
     console.log("New recommendation added");
@@ -16,6 +19,7 @@ function addRecommendation() {
     // Reset the value of the textarea
     recommendation.value = "";
   }
+  
 }
 
 function showPopup(bool) {
