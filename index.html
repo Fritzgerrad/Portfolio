@@ -6,7 +6,30 @@
     <script src="./script.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <style>
-     
+      .project-card a
+      {
+       text-decoration: none;
+      }
+      #skills h6
+      {
+        color:black;
+      }
+
+      .skill-type h2
+          {
+            background-color: white;
+            color: rgb(20,22,27);
+            font-size: 30px;
+            float: none;
+            text-align: justify;
+            margin-top: 10px;
+            margin-right: 0px;
+            padding: 10px;
+            padding-left: 30px;
+            
+          
+          }
+ 
     </style>
   </head>
   <body>
@@ -15,17 +38,6 @@
       <div id="home">
         <div class="profile_name">
           <a href="#about-me">HOME</a>
-          <!--
-          <div class="contact_info" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
-            <img src="images/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-          fritzgerrad.so@gmail.com
-        </div>
-        <div class="contact_info" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
-          <img src="images/phone.png" alt="https://icons8.com/icon/124377/circled-envelope" />
-          +234-909-8708-094, +234-704-0800-644
-
-        </div>
-        -->
         </div>
         <div class="topdiv">
           <a class="topmenu" href="about.html">About Me</a>
@@ -61,8 +73,9 @@
     </section>
               
     <!-- Skills -->
-    <section id="skills" style="background-color: white; padding-bottom:20px;"  class="sub-sections">
-      <h2>Skills</h2>
+    <section id="skills" style="background-color: white; padding-bottom:20px;"  class="skill-type">
+      <h2 style="margin-bottom: 0px;">Skills</h2>
+      <hr style="height: 4px; background-color:rgb(20,22,27)">
       <div style="clear:both;"></div>
 
       <div class="all_skills">
@@ -108,56 +121,45 @@
       <a href="skills.html" style="padding-left:80px;">Click here to view more about my skills.</a>
     </section>
           
-    <!-- Projects -->
-    <section class="sub-sections" id="projects">
-      <h2>
+    <section class="skill-type" id="projects">
+      <h2 class="sechead">
         Projects
       </h2>
       <div style="clear:both;"></div>
 
         <div id="projects-container" class="projects-container">
           <div class="project-card">
-            <h3>Image Filter </h3>
+            <a href="projects.html"><h3>Image Filter </h3></a>
           </div>
           <hr>
           <div class="project-card">
-            <h3>Movie Reccomender</h3>
+            <a href="projects.html#imagefilter"><h3>Movie Reccomender</h3></a>
 
           </div>
           <hr>
           <div class="project-card">
-            <h3>Filyago Fashion Website</h3>
+            <a href="projects.html#moviereccomender"><h3>Filyago Fashion Website</h3></a>
             
             </div>
             <hr>
             <div class="project-card">
-              <h3>House Pricing Model</h3>
+              <a href="projects.html#filyago"><h3>S&S E-Commerce Website</h3></a>
             </div>
             <hr>
             <div class="project-card">
-              <h3>S&S E-Commerce Website</h3>
-            </div>
-            <div class="project-card">
-              <h3>Task Automator Yeilding for Long-Term Operational Responsive System With Infinite Feedback Technology (TAYLOR SWIFT)
-              </h3>
+              <a href="projects.html#sands"><h3>Task Automator Yeilding for Long-Term Operational Responsive System With Infinite Feedback Technology (TAYLOR SWIFT)</h3></a>
+              
             </div>
             <hr>
             <div class="project-card">
-              <h3>Developer Salary Analysis
-              </h3>
+              <a href="projects.html#tswift"><h3>Developer Salary Analysis</h3></a>
             </div>
-    
-           
-            <a href="projects.html" style="padding-left: 70px;">Click here to view more about my projects.</a>
-
-            
           </div>
     </div>
     </section>
     <div style="clear:both;"></div>
 
-    <!-- Recommendations -->
-    <section id="recommendations" class="sub-sections">
+    <section id="recommendations" class="skill-type">
       <h2>Recommendations</h2>
       <div style="clear:both;"></div>
       <div class="all_recommendations" id="all_recommendations">
@@ -181,8 +183,6 @@
         </div>
       </div>
     </section>
-
-    <!-- Recommendation Form -->
     <section id="contact">
       <div class="flex_center">
         <fieldset>
@@ -209,9 +209,6 @@
       <h3>Thanks for leaving a recomendation!</h3>
       <button onclick="showPopup(false)">Ok</button>
     </div>
-
-
-
     <footer id="footer">
       <div>
         <h3>CONTACT ME</h3>
